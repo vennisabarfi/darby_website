@@ -1,0 +1,20 @@
+.body{
+    scroll-behavior: smooth;
+}
+
+.nav-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 2%;
+    
+
+}
+
+.nav{
+ color: black;
+ border-color: none;
+}
+
+.nav:hover{
+   color: white;
+}
