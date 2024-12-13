@@ -1,0 +1,45 @@
+.contact-container{
+    display: flex;
+    height: 5%;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.contact-footer{
+    /* background-color: #b45309; */
+}
+
+.contact-icons{
+    scale: 0.3;
+    display: grid;
+    gap: 30%;
+    grid-template-columns: auto auto auto;
+ 
+}
+
+.reference{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.reference a:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .contact-icons{
+        scale: 0.4;
+        display: grid;
+        gap: 30%;
+        grid-template-columns: auto auto auto;
+     
+    }
+
+    .reference{
+        font-size: 0.875rem;
+        line-height: 1.25rem; 
+    }
+}
