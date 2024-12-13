@@ -24,14 +24,16 @@ function App() {
 
     </div>
     
-   
+
     <div id='work'>
     <Work/> 
 
     </div>
+
     <div id='about'>
     <About/>
     </div>
+   
 
     <br/>
 

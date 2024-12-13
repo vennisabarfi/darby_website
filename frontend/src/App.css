@@ -20,11 +20,17 @@
     text-decoration: none;
     color: black;
 }
+
+
 .nav a:visited{
     text-decoration: none;
     color: black;
 }
 
+.nav a:hover{
+    text-decoration: none;
+    color: white;
+}
 
 
 .nav a:active{
