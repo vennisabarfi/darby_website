@@ -3,6 +3,7 @@ import "./About.css"
 import { Separator } from "@radix-ui/react-separator";
 import darby_headshot from "./darby-headshot.jpg";
 import { Button } from "@/components/ui/button"
+import darby_resume from "./darby_resume.pdf";
 
 export default function About(){
 
@@ -27,6 +28,8 @@ export default function About(){
             "Description": "Tutored college students in French. Delivered progress reports to my supervisor showcasing student achievements and areas for improvement", 
          }
 ]
+
+  
 
     const resume_link_icon = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="size-5">
     <path d="M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z" />
@@ -59,7 +62,8 @@ export default function About(){
                 ))}
 
                 <div className="mobile-link">
-                <Button  className="resume-link" variant="link"><a href="/resume" target="_blank">View Full Resume</a>{resume_link_icon}
+                    {/* think about how you can better improve this file retrieval possibly by hosting the file somewhere? */}
+                <Button  className="resume-link" variant="link"><a href={darby_resume} target="_blank">View Full Resume</a>{resume_link_icon}
 </Button>
                 </div>
                   
