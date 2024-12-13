@@ -22,12 +22,7 @@ export default function Header(){
         <div className="header-image-bio">
             {/* <img className="woods-image" alt="picture of woods" src={woods}></img> */}
             <div className="bio"> 
-                <p className="scroll-m-20 text-2xl font-semibold tracking-tight">
-                    I am Darby Frederiksen and I do stuff. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Phasellus finibus gravida fermentum. Aenean in sapien elit. In hac habitasse platea dictumst. 
-                    Vestibulum.
-                    
-                    </p>
+                
                 </div>
 
        

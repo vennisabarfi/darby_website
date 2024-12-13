@@ -6,15 +6,38 @@
     display: grid;
     grid-template-columns: auto auto auto;
     margin-top: 2%;
-    
+    /* background-image: url("./Header/woods.jpg"); */
 
 }
+
 
 .nav{
  color: black;
  border-color: none;
 }
 
-.nav:hover{
-   color: white;
+.nav a:link{
+    text-decoration: none;
+    color: black;
+}
+.nav a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.nav a:active{
+   text-decoration: none;
+   color: black;
+ }
+
+
+ @media only screen and (max-width: 768px) {
+
+    /* expand this to the click feature for mobile instead of hover */
+    .nav a:hover{
+        color: black;
+     }
+
 }

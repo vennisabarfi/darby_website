@@ -1,3 +1,27 @@
 .image-carousel{
     margin-left: 10%;
+    
+}
+
+.carousel{
+    width: 100%; 
+    max-width: 90%;
+    scroll-behavior: smooth;
+
+}
+
+/* work on removing this completely */
+.carousel-card{
+    border-width: 0;
+    border:none white;
+    
+}
+@media only screen and (max-width: 768px) {
+
+    .carousel{
+        width: 85%;
+        max-width: 28rem; 
+        scroll-behavior: smooth;
+    
+    }
 }

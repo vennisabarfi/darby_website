@@ -16,6 +16,7 @@ import {
 import giraffe from "./giraffe.jpg"
 import abstract from "./abstract.jpg"
 import skull from "./skull.jpg"
+import face from "./face.jpg"
 
 export default function Work(){
 
@@ -29,25 +30,27 @@ export default function Work(){
           {"id": 3,
             "img": skull,  
           },
+          {"id": 4,
+            "img": face,  
+          },
     
     ]
     return(
         <>
-        <div className="image-carousel">
+        <div className="image-carousel ">
         <Carousel
       opts={{
-        // align: "center",
       }}
-      className="w-full max-w-sm"
+      className="carousel "
       
     >
       <CarouselContent>
         {Array.map((array) => (
           <CarouselItem key={array.index} className="md:basis-1/2 lg:basis-1/3">
-            <div className="p-1">
-              <Card>
-                <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <span className="text-3xl font-semibold"><img src={array.img}/></span>
+            <div className="p-1 ">
+              <Card className="carousel-card">
+                <CardContent className="flex aspect-square items-center justify-center p-6 ">
+                  <span className="carousel-image"><img src={array.img}/></span>
                 </CardContent>
               </Card>
             </div>
