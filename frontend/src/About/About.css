@@ -1,11 +1,17 @@
 .section-header{
-font-size: 1.5rem;
+font-size: 2rem;
 /* change font color ro a lighter one */
 line-height: 2rem; 
 font-weight: 600; 
 letter-spacing: -0.025em; 
 scroll-margin: 5rem; 
-margin-left: 10%;
+margin-left: -5%;
+margin-bottom: 5%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
 
 }
 
@@ -22,4 +28,117 @@ margin-left: 10%;
     grid-template-rows: 1fr;
     grid-column-gap: 0;
     width: 100%;
+}
+
+.resume{
+    margin-left: 3%;
+    max-width: 70%;
+}
+.description{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    
+}
+
+.experience{
+    margin-bottom: 10%;
+   
+}
+
+.experience h1{
+    margin-bottom: 1%;
+}
+
+.experience p{
+    margin-bottom: 2%;
+}
+
+.resume-link{
+    /* margin-left: -3%; */
+    scale: 1.2;
+}
+.resume-link :hover{
+    transform: translateY(-2px);
+    
+    
+}
+/* image edit */
+
+
+.headshot img{
+   
+   
+
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    margin-bottom: 2%;
+}
+
+.headshot h1{
+    margin-top: 5%;
+}
+.lang-list li{ 
+    list-style-type:circle;
+   
+ 
+}
+
+.mobile-divider{
+    display: none;
+}
+
+.mobile-image{
+    display: none;
+}
+
+
+/* may change media screen to 1024px */
+@media only screen and (max-width: 768px) {
+
+    .resume{
+        max-width: 100%;
+    }
+
+  
+    .mobile-link{
+        margin-left: 30%;
+    }
+    .resume-headshot{
+        grid-template-columns: none;
+    }
+
+    .resume-link{
+        margin-left: 30%;
+    }
+
+    .mobile-divider{
+        display: flex;
+        height: 5%;
+        width: 100%;
+    }
+    .headshot{
+        margin-top: 5%;
+    }
+    .mobile-image{
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 5%;
+    }
+    .headshot img{
+        display: none;
+  
+    }
+
+    .headshot{
+        width: 96%;
+        margin-left: 3%;
+    }
 }
