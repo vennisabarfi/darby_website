@@ -1,6 +1,6 @@
 import "./Contact.css"
 import { Separator } from "@radix-ui/react-separator";
-import { DARBY_EMAIL, DARBY_LINKEDIN, VENNISA_WEBSITE} from "@/Contact/Constants";
+import { DARBY_EMAIL, DARBY_LINKEDIN, VENNISA_WEBSITE, DARBY_INSTAGRAM} from "@/Contact/Constants";
 
 
 export default function Contact(){
@@ -26,7 +26,7 @@ export default function Contact(){
     
        <span><a  target="_blank" href={DARBY_LINKEDIN}>{linkedin}</a></span>
        <span><a target="_blank" href={DARBY_EMAIL}>{email}</a></span>
-       <span><a>{instagram}</a></span>
+       <span><a  target="_blank" href={DARBY_INSTAGRAM}>{instagram}</a></span>
        
     </div>
     <div className="reference">

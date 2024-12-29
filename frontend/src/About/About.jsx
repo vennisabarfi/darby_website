@@ -1,7 +1,7 @@
 
 import "./About.css"
 import { Separator } from "@radix-ui/react-separator";
-import darby_headshot from "./darby-headshot.jpg";
+import darby_headshot from "./darby-pic.jpg";
 
 
 
