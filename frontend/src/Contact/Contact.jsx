@@ -33,7 +33,7 @@ export default function Contact(){
     <p className=" font-semibold text-muted-foreground">&copy; 2024 <script>
       document.write(new Date().getFullYear())
     </script> 
-         <a  target="_blank" href="www.vennisabarfi.com">website by vennisabarfi</a>  </p>
+         <a  target="_blank" href="https://vennisabarfi.com/">website by vennisabarfi</a>  </p>
     </div>
    
 
