@@ -1,6 +1,6 @@
 import "./Contact.css"
 import { Separator } from "@radix-ui/react-separator";
-import { DARBY_EMAIL, DARBY_LINKEDIN, VENNISA_WEBSITE, DARBY_INSTAGRAM} from "@/Contact/Constants";
+import { DARBY_EMAIL, DARBY_LINKEDIN,DARBY_INSTAGRAM} from "@/Contact/Constants";
 
 
 export default function Contact(){
@@ -33,7 +33,7 @@ export default function Contact(){
     <p className=" font-semibold text-muted-foreground">&copy; 2024 <script>
       document.write(new Date().getFullYear())
     </script> 
-         <a  target="_blank" href={VENNISA_WEBSITE}>website by vennisabarfi</a>  </p>
+         <a  target="_blank" href="www.vennisabarfi.com">website by vennisabarfi</a>  </p>
     </div>
    
 
