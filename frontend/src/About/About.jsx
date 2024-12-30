@@ -19,7 +19,7 @@ export default function About(){
             "Company": "Linguae Christi",
             "Role": "Linguistics Summer Intern",
             "Date":"July 2021",
-            "Description": "Worked on projects aimed at the preservation of the Welsh languaged. Created impactful promotional materials towards the awareness and conservation of the Welsh language.", 
+            "Description": "Worked on projects aimed at the preservation of the Welsh language. Created impactful promotional materials towards the awareness and conservation of the Welsh language.", 
          },
          { "id": 3,
             "Company": "Calvin University",
